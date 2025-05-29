@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82822321720",
+    "project_id": "savin-579e4",
+    "storage_bucket": "savin-579e4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82822321720:android:13bd197ef55b951192f8cd",
+        "android_client_info": {
+          "package_name": "com.example.candy_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4JChWGyvYfiNb-3jYzyGlhJ-UyIBeDM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
