@@ -62,22 +62,23 @@ class CustomTabIcon extends StatelessWidget {
       onTap: ontap,
       child: Padding(
         padding: const EdgeInsets.only(top: 1),
-        child: Column(
-          children: [
-            Icon(
-              icon,
-              size: 25,
-              color: lightGrey,
-            ),
-            Text(title,
-                style: TextStyle(
-                  color: lightGrey,
-                  fontSize: 11.5,
-                  fontFamily: "Montserrat",
-                )),
-          ],
+        child:  Column(
+            children: [
+              Icon(
+                icon,
+                size: 25,
+                color: lightGrey,
+              ),
+              Text(title,
+                  style: TextStyle(
+                    color: lightGrey,
+                    fontSize: 11.5,
+                    fontFamily: "Montserrat",
+                  )),
+            ],
+          ),
         ),
-      ),
+      
     );
   }
 }
@@ -95,13 +96,11 @@ class HomeNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
-        height: height * 0.07,
+        height: height * 0.09,
         elevation: 0,
         color: white,
         child: Container(
-            child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-          child: Row(
+            child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               CustomPageTab(
@@ -148,7 +147,7 @@ class HomeNavBar extends StatelessWidget {
                   })
             ],
           ),
-        )));
+        ));
   }
 }
 
@@ -165,14 +164,12 @@ class BudgetNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
-        height: height * 0.07,
+        height: height * 0.09,
         elevation: 0,
         color: white,
         child: Container(
             width: width * 1,
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-              child: Row(
+            child:  Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CustomTabIcon(
@@ -219,7 +216,7 @@ class BudgetNavBar extends StatelessWidget {
                       })
                 ],
               ),
-            )));
+            ));
   }
 }
 
@@ -236,14 +233,12 @@ class SearchNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
-        height: height * 0.07,
+        height: height * 0.09,
         elevation: 0,
         color: white,
         child: Container(
             width: width * 1,
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-              child: Row(
+            child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CustomTabIcon(
@@ -290,7 +285,7 @@ class SearchNavBar extends StatelessWidget {
                       })
                 ],
               ),
-            )));
+            ));
   }
 }
 
@@ -307,14 +302,13 @@ class AccountNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
-        height: height * 0.07,
+        height: height * 0.09,
         elevation: 0,
         color: white,
         child: Container(
+          color: white,
             width: width * 1,
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-              child: Row(
+            child:  Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CustomTabIcon(
@@ -361,7 +355,7 @@ class AccountNavBar extends StatelessWidget {
                       })
                 ],
               ),
-            )));
+            ));
   }
 }
 

@@ -192,20 +192,25 @@ class AuthController extends GetxController {
   }
 
   Future<void> addUserInfo() async {
-    if (auth.currentUser != null) {
-      await FirebaseFirestore.instance
-          .collection('users')
-          .doc(auth.currentUser!.uid)
-          .collection('userData') // Sub-collection for user-specific data
-          .doc('profile') // Use a fixed document ID like 'profile'
-          .set({
-        'id': auth.currentUser!.uid,
-        'username': usernameController.text,
-        'phoneNumber': "+237${phoneNumberController.text}",
-        'email': emailController.text,
-        'profileImageUrl': imageControllerUpdate.imageUrl.value,
-        'createdAt': FieldValue.serverTimestamp(),
-      });
+    try {
+      if (auth.currentUser != null) {
+        await FirebaseFirestore.instance
+            .collection('users')
+            .doc(auth.currentUser!.uid)
+            .collection('userData') // Sub-collection for user-specific data
+            .doc('profile') // Use a fixed document ID like 'profile'
+            .set({
+          'id': auth.currentUser!.uid,
+          'username': usernameController.text,
+          'phoneNumber': "+237${phoneNumberController.text}",
+          'email': emailController.text,
+          'profileImageUrl': imageControllerUpdate.imageUrl.value,
+          'createdAt': FieldValue.serverTimestamp(),
+        });
+      }
+    } catch (e) {
+      CustomSnackBar("Error", "Could not add user info$e", 'error');
+      print("Error $e");
     }
   }
 

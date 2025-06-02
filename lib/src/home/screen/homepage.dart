@@ -24,8 +24,6 @@ class HomePage extends StatelessWidget {
 
     // Controllers are found/put here
 
-  
-
     final TransactionController transactionController =
         Get.put(TransactionController());
 
@@ -51,7 +49,7 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                height: height * 0.55,
+                height: height * 0.58,
                 // height: height * 0.7,
                 decoration: BoxDecoration(
                   borderRadius: const BorderRadius.only(
@@ -80,14 +78,12 @@ class HomePage extends StatelessWidget {
                       child: CustomGreeting(
                         width: width,
                         height: height,
-                        
-                           
                       ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Container(
-                        height: height * 0.26,
+                        height: height * 0.28,
                         //  height: height * 0.4,
                         width: width * 1,
                         child: Padding(

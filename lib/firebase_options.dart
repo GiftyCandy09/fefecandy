@@ -50,19 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA4JChWGyvYfiNb-3jYzyGlhJ-UyIBeDM8',
-    appId: '1:82822321720:android:13bd197ef55b951192f8cd',
-    messagingSenderId: '82822321720',
-    projectId: 'savin-579e4',
-    storageBucket: 'savin-579e4.firebasestorage.app',
+    apiKey: 'AIzaSyBX2_U1ScMDQUmVaH5lVxhqo77Flv0yRAw',
+    appId: '1:942790464052:android:319bff0d5940abb5997061',
+    messagingSenderId: '942790464052',
+    projectId: 'savvyspend-7c150',
+    storageBucket: 'savvyspend-7c150.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDKCFgUbbhTsCPftSim4sr5q60YYz9uYMA',
-    appId: '1:82822321720:ios:c0c154053a9c207092f8cd',
-    messagingSenderId: '82822321720',
-    projectId: 'savin-579e4',
-    storageBucket: 'savin-579e4.firebasestorage.app',
+    apiKey: 'AIzaSyCZLhe7GXsjtoxByOjT5AbjRh1BnB2mUIs',
+    appId: '1:942790464052:ios:be05da07248f11e8997061',
+    messagingSenderId: '942790464052',
+    projectId: 'savvyspend-7c150',
+    storageBucket: 'savvyspend-7c150.firebasestorage.app',
     iosBundleId: 'com.example.candyApp',
   );
+
 }

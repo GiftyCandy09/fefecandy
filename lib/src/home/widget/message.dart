@@ -78,7 +78,7 @@ class CustomGreeting extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: width * 1,
-      height: height * 0.15,
+      height: height * 0.175,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20), color: lightBlack),
       child: Padding(
