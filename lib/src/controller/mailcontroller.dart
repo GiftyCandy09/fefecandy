@@ -19,14 +19,7 @@ class MailController extends GetxController {
     super.onInit();
   }
 
-  // @override
-  // void onClose() {
-  //   _timer.cancel(); // Cancel the auto-redirect timer
-  //   if (authController._timer != null) { // Check if the timer in AuthController exists
-  //     authController._timer!.cancel(); // Cancel the AuthController's timer if it's active
-  //   }
-  //   super.onClose();
-  // }
+ 
 
   Future<void> mailVerification() async {
     try {

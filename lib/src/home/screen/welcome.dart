@@ -4,6 +4,7 @@ import 'package:candy_app/src/auth/widget/auth_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+//Welcome Page
 class Welcome extends StatelessWidget {
   const Welcome({super.key});
 

@@ -111,7 +111,7 @@ class AllExpensePage extends StatelessWidget {
                 SizedBox(
                   height: height * 0.05,
                 ),
-                // --- Single StreamBuilder for ALL income data ---
+            
                 StreamBuilder<List<TransactionModel>>(
                   stream: transactionController.getExpenseTransactions(),
                   builder: (context, snapshot) {

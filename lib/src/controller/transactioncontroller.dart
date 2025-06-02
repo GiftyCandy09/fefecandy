@@ -2,7 +2,7 @@ import 'package:candy_app/decoration.dart';
 import 'package:candy_app/src/controller/authcontroller.dart';
 import 'package:candy_app/src/auth/widget/snackbar.dart';
 import 'package:candy_app/src/home/screen/homepage.dart';
-import 'package:candy_app/src/home/screen/transactionpage.dart';
+
 import 'package:candy_app/src/models/transactionmodel.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dropdown_textfield/dropdown_textfield.dart';
@@ -12,6 +12,7 @@ import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 import 'package:rxdart/rxdart.dart ' as Rx;
 
+//Transaction Controller
 class TransactionController extends GetxController {
   final FirebaseAuth auth = FirebaseAuth.instance;
 

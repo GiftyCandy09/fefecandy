@@ -15,7 +15,7 @@ import 'package:candy_app/src/models/transactionmodel.dart';
 class BudgetPage extends StatelessWidget {
   BudgetPage({super.key});
 
-  // Get an instance of your TransactionController
+
   final TransactionController transactionController =
       Get.put(TransactionController());
 

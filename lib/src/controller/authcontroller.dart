@@ -17,7 +17,7 @@ class AuthController extends GetxController {
       usernameController,
       emailController,
       passwordController,
-      //Login
+     
       loginEmailController,
       loginPasswordController,
       //Change Password

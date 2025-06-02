@@ -3,7 +3,7 @@ import 'package:candy_app/src/controller/authcontroller.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-
+//Usercontroller 
 class UserController extends GetxController {
   final AuthController authController =
       Get.put(AuthController()); // Use Get.find()

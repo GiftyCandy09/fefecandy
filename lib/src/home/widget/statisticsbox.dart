@@ -1,7 +1,7 @@
 import 'package:candy_app/decoration.dart';
 import 'package:flutter/material.dart';
 
-
+//Statistics Page
 class StatisticBox extends StatelessWidget {
   const StatisticBox(
       {super.key,

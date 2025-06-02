@@ -2,6 +2,7 @@ import 'package:candy_app/decoration.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+//Custom Snack Bar
 
  CustomSnackBar(String title, String message, String type) {
   Future.delayed(Duration.zero, () {

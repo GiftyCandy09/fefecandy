@@ -15,6 +15,7 @@ class NewTransactionPage extends StatefulWidget {
   State<NewTransactionPage> createState() => _NewTransactionPageState();
 }
 
+//Add Transactions page
 class _NewTransactionPageState extends State<NewTransactionPage> {
   final TransactionController transactionController =
       Get.put(TransactionController());

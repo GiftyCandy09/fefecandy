@@ -12,7 +12,7 @@ var lightGrey = Colors.grey.shade500;
 
 // ---->
 
-//Text Start
+//TextStyle  Start
 // Montserrat
 
 var textBlackMedium = TextStyle(

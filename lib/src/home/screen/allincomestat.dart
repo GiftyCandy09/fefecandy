@@ -11,7 +11,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:candy_app/src/models/transactionmodel.dart';
 
-// Ensure this import is correct
+
 class AllSearchPage extends StatelessWidget {
   AllSearchPage({super.key});
 

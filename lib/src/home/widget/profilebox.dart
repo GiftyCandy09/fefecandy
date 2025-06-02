@@ -2,6 +2,8 @@ import 'package:candy_app/decoration.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+//Profile Page
+
 class Profile_Box extends StatelessWidget {
   const Profile_Box({
     super.key,

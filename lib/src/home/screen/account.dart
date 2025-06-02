@@ -22,7 +22,7 @@ class AccountInfo extends StatelessWidget {
     final UserController userController = Get.find<UserController>();
 
 
-    // final UserController userController = Get.put(UserController());
+
 
     return Scaffold(
         backgroundColor: white,

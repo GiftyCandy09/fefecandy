@@ -1,5 +1,5 @@
 import 'package:candy_app/decoration.dart';
-import 'package:candy_app/src/auth/screen/verifyemail.dart';
+
 import 'package:candy_app/src/controller/authcontroller.dart';
 import 'package:candy_app/src/auth/screen/loginpage.dart';
 import 'package:candy_app/src/auth/widget/auth_button.dart';
@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:candy_app/src/auth/widget/bars.dart';
-
+// Sign Up Page
 class SignUpPage extends StatelessWidget {
   SignUpPage({super.key});
 

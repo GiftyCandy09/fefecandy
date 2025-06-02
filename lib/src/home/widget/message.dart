@@ -28,7 +28,7 @@ class _FinancialMessageState extends State<FinancialMessage> {
   @override
   void initState() {
     super.initState();
-    // Set the initial index randomly
+
     _currentIndex =
         DateTime.now().millisecondsSinceEpoch % financialMessages.length;
 

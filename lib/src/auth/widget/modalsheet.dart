@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'dart:convert';
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
-
+ //Image Controller
 class ImageController extends GetxController {
   var imageUrl = RxString('');
 

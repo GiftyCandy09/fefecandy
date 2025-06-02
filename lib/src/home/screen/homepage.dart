@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
     var height = MediaQuery.of(context).size.height;
     var width = MediaQuery.of(context).size.width;
 
-    // Controllers are found/put here
+
 
     final TransactionController transactionController =
         Get.put(TransactionController());

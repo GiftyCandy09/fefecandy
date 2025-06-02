@@ -23,7 +23,7 @@ class ExpensePage extends StatelessWidget {
     Color(0xFFD4E157), // Lime (a striking, bright green-yellow)
     Color(0xFFAB47BC), // Purple (a strong, regal purple)
     Color(0xFF66BB6A), // Green (a fresh, bold green)
-    Color(0xFFE040FB), // Magenta (a vibrant, electric pink-purple)
+    Color(0xFFE040FB), // Magenta 
   ];
 
   @override

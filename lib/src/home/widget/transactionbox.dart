@@ -1,6 +1,7 @@
 import 'package:candy_app/decoration.dart';
 import 'package:flutter/material.dart';
 
+//Transactions Box
 class TransactionBox extends StatelessWidget {
   const TransactionBox({
     super.key,

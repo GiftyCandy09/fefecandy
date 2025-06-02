@@ -2,6 +2,7 @@ import 'package:candy_app/decoration.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+//Bars
 class AppTabs extends StatelessWidget {
   const AppTabs(
       {super.key,

@@ -1,6 +1,7 @@
 import 'package:candy_app/decoration.dart';
 import 'package:flutter/material.dart';
 
+//Slides a4t the start of the app
 
 class Slide extends StatelessWidget {
   const Slide(

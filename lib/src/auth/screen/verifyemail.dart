@@ -7,6 +7,7 @@ import 'package:candy_app/src/auth/widget/bars.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+//Verify Email
 class VerifyEmailPage extends StatelessWidget {
   VerifyEmailPage({super.key, required this.email});
 
